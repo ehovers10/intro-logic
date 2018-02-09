@@ -1,0 +1,30 @@
+$(window).load( function() {
+
+$( '.protectopen' ).click( function() {
+
+  var north = this.id;
+  
+  if ( north.indexOf('ex6') > -1 ) {
+    var bertrand = "baruch";
+  } 
+  else if ( north == "hw1a" ) {
+    var bertrand = "alfred";
+  } 
+  else if ( north == "hw2a" ) {
+      var bertrand = "george";
+  } 
+
+  var getin = prompt("Password required:","");
+
+  if (getin == bertrand) {
+    $( "#" + this.id + "hid" ).slideToggle( "slow" );
+  }
+  else if (getin == null || getin == '') {
+    return;
+  } 
+  else {
+    location.href = 'nope.html';
+  }
+});
+
+});

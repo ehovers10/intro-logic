@@ -1,0 +1,197 @@
+<a name="top"></a>
+[Return to course home page](./index.md)
+
+# Homework answer key
+
+> The answer keys below are password protected. To access the answers to a homework assignment, click on the relevant homework title and enter the appropriate password.
+
+<a name="hw1"></a>
+
+<h1><a id="hw1a" class="protectopen" href="#" onclick="return false;">HW #1</a></h1>
+<div id="hw1ahid" style="display: none;">
+
+Assignment: <a id="protect" href="#">1.2</a>, <a href="hw/erik-ex1.3.wld">1.3</a>, 1.4 (<a href="hw/erik-ex1.4.sen">sen</a>, <a href="hw/erik-ex1.4.wld">wld</a>), <a href="hw/erik-ex1.5.wld">1.5</a>, <a href="hw/erik-ex1.6.wld">1.6</a>, 1.8, <a href="hw/erik-ex1.9.sen">1.9</a>, 1.11 (<strong>5 points each</strong>)
+
+<blockquote>
+To see example answers to Grade Grinder exercises, right click the links above and save the files. Once saved, you can open them using the relevant LPL software.
+</blockquote>
+
+<a name="ex18"></a>
+<h2 id="ex.-1.8">Ex. 1.8</h2>
+<ol style="list-style-type: decimal">
+<li>
+<pre><code>  GaveScruffy(max,max)          GaveCarl(max,max)
+  GaveScruffy(max,claire)       GaveCarl(max,claire)
+  GaveScruffy(claire,max)       GaveCarl(claire,max)
+  GaveScruffy(claire,claire)    GaveCarl(claire,claire)</code></pre></li>
+<li>
+<pre><code>  Gave(max,max,max)         Gave(max,scruffy,max)
+  Gave(max,max,claire)      Gave(max,scruffy,claire)
+  Gave(max,max,scruffy)     Gave(max,scruffy,scruffy)
+  Gave(max,max,carl)        Gave(max,scruffy,carl)
+  Gave(max,claire,max)      Gave(max,carl,max)
+  Gave(max,claire,claire)   Gave(max,carl,claire)
+  Gave(max,claire,scruffy)  Gave(max,carl,scruffy)
+  Gave(max,claire,carl)     Gave(max,carl,carl)</code></pre>
+= 16
+
+x 4 (for each name as the first argument) = 64 total sentences
+
+<em>The student does not need to list all of the sentences of this language. They need only give the correct number.</em></li>
+<li>If n = number of names, then number of sentences = n<sup>2</sup> per binary predicate. So, 4 names and 4 binary predicates = 4<sup>2</sup> x 4 = 64 sentences.</li>
+</ol>
+
+<a name="ex111"></a>
+<h2 id="ex.-1.11">Ex. 1.11</h2>
+<ol style="list-style-type: decimal">
+<li>ShakeHands(max, claire, past)</li>
+<ul>
+<li>ShakeHands(x,y,z) is a ternary predicate that takes two people and a time as arguments. It says that the two people shook hands at the indicated time.</li>
+<li><em>max</em> and <em>claire</em> are names of people and <em>past</em> is a name for any time earlier than today.</li>
+</ul>
+<li>ShakeHands(max, claire, yesterday)</li>
+<ul>
+<li>This is the same predicate as above.</li>
+<li><em>yesterday</em> is a name for a specific time one day prior to today.</li>
+</ul>
+<li>LessContagious(aids, influenza)</li>
+<ul>
+<li><em>LessContagious(x,y)</em> is a binary predicate that takes two diseases as arguments.</li>
+<li><em>aids</em> and <em>influenza</em> are names of diseases.</li>
+</ul>
+<li>BetweenSize(spain, france, portugal) or Size(portugal, spain, france)</li>
+<ul>
+<li><em>BetweenSize(x,y,z)</em> is a ternary predicate that takes three objects as arguments. It says that the first object is between the second two objects in size.</li>
+<li><em>Size(x,y,z)</em> is a ternary predicate that takes three objects as arguments. It orders the objects in size from smallest to largest.</li>
+<li><em>spain</em>, <em>france</em>, and <em>portugal</em> are names for objects; specifically, they name countires.</li>
+</ul>
+<li>Loves(misery, company)</li>
+<ul>
+<li><em>Loves(x,y)</em> is a binary predicate that takes two objects as arguments. It says that the first object loves the second.</li>
+<li><em>misery</em> and <em>company</em> are names for objects; specifically, they name abstract objects. <em>misery</em> is an emotion, and <em>company</em> is a state of not being alone.</li>
+</ul>
+</ol>
+</div>
+
+[Return to top](#top)
+* * * * *
+
+<a name="hw2"></a>
+
+<h1><a id="hw2a" class="protectopen" href="#" onclick="return false;">HW #2</a></h1>
+<div id="hw2ahid" style="display: none;">
+
+Assignment: 2.1 (<a href="hw/erik-ex2.1.5.wld">arg5</a>, <a href="hw/erik-ex2.1.7.wld">arg7</a>,<a href="hw/erik-ex2.1.8.wld">arg8</a>), <a href="hw/erik-ex2.10.wld">2.10</a>, <a href="hw/erik-ex2.24.prf">2.24</a>, <a href="hw/erik-ex2.26.wld">2.26</a>, 3.6 (<a href="hw/erik-ex3.6.sen">sen</a>, <a href="hw/erik-ex3.6.wld">wld</a>), 3.10 (<a href="hw/erik-ex3.10.sen">sen</a>, <a href="hw/erik-ex3.10.wld">wld</a>), <a href="hw/erik-ex3.15.sen">3.15</a>, 3.19 (<strong>5 points each</strong>)
+
+<blockquote>
+To see example answers to Grade Grinder exercises, right click the links above and save the files. Once saved, you can open them using the relevant LPL software.
+</blockquote>
+
+<a name="ex21"></a>
+<h2>Ex 2.1</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Argument</th>
+<th align="left">Valid?</th>
+<th align="left">Sound-Socrates?</th>
+<th align="left">Sound-Wittgenstein?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">1</td>
+<td align="left">yes</td>
+<td align="left">yes</td>
+<td align="left">no</td>
+</tr>
+<tr class="even">
+<td align="left">2</td>
+<td align="left">yes</td>
+<td align="left">yes</td>
+<td align="left">no</td>
+</tr>
+<tr class="odd">
+<td align="left">3</td>
+<td align="left">yes</td>
+<td align="left">yes</td>
+<td align="left">no</td>
+</tr>
+<tr class="even">
+<td align="left">4</td>
+<td align="left">yes</td>
+<td align="left">yes</td>
+<td align="left">no</td>
+</tr>
+<tr class="odd">
+<td align="left">5</td>
+<td align="left">no</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+</tr>
+<tr class="even">
+<td align="left">6</td>
+<td align="left">yes</td>
+<td align="left">yes</td>
+<td align="left">no</td>
+</tr>
+<tr class="odd">
+<td align="left">7</td>
+<td align="left">no</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+</tr>
+<tr class="even">
+<td align="left">8</td>
+<td align="left">no</td>
+<td align="left">n/a</td>
+<td align="left">n/a</td>
+</tr>
+</tbody>
+</table>
+
+<a name="ex319"></a>
+<h2>Ex 3.19</h2>
+<ol style="list-style-type: decimal">
+<li>ParentOf(chris,alex) <em>or</em> ChildOf(alex,chris)</li>
+<li>SiblingOf(chris,alex)</li>
+<li>Man(chris)</li>
+<li>EvenNumber(4) <em>or</em> &not;OddNumber(4) (if zero is not considered even or odd)</li>
+<li>NormalPerson(chris)</li>
+<li>Grandmother(mary,alex) (ok if the student doesn't do this one)</li>
+</ol>
+</div>
+
+[Return to top](#top)
+* * * * *
+
+<a name="hw3"></a>
+HW \# 3
+=======
+
+Assignment: 4.39, 4.40, 6.6, 6.8, 6.9, 6.14, 6.20, 6.28, 6.31*, 6.32* (**5 points each, 3 bonus points each for starred ex**)
+
+<a name="hint"></a>
+Hints
+-----
+
+> Click the links below to reveal some hints for each exercise.
+
++ <span class="open"><a href='#' onclick="return false;">6.6 &rArr; </a></span><span class="hideable" style="display: none;"> This proof makes use only of the &and; and &or; rules. My proof ended up with 12 lines.</span>
++ <span class="open"><a href='#' onclick="return false;">6.8 &rArr; </a></span><span class="hideable" style="display: none;"> With TautCon, we can substitute equivalent sentences *within* another sentence. Our new rules don't allow for that. This exercise shows us how to work around that limitation.</span>
++ <span class="open"><a href='#' onclick="return false;">6.9 &rArr; </a></span><span class="hideable" style="display: none;"> **&not;Intro** plays a crucial role in this proof. My proof ended up with 7 lines.</span>
++ <span class="open"><a href='#' onclick="return false;">6.14 &rArr; </a></span><span class="hideable" style="display: none;"> You'll need a proof by cases with 3 cases, and &perp;Intro will come in handy a lot. My proof ended up with 20 lines.</span>
++ <span class="open"><a href='#' onclick="return false;">6.20 &rArr; </a></span><span class="hideable" style="display: none;"> This proof has doubly nested subproofs in it. My proof ended up with 12 lines.</span>
++ <span class="open"><a href='#' onclick="return false;">6.28 &rArr; </a></span><span class="hideable" style="display: none;"> You'll need to use AnaCon on a literal in this proof. Remember that a literal is any atomic sentence with or without a negation attached. You'll cite only one line with this use of AnaCon. My proof ended up with 10 lines.</span>
++ <span class="open"><a href='#' onclick="return false;">6.31 &rArr; </a></span><span class="hideable" style="display: none;"> Are you sure this argument is valid?</span>
++ <span class="open"><a href='#' onclick="return false;">6.32 &rArr; </a></span><span class="hideable" style="display: none;"> You'll need proof by cases twice, but not nested. My proof ended up with 20 lines.</span>
+
+[Return to top](#top)
+* * * * *
+
+<!-- Externals -->
+<!--<link rel="stylesheet" href="css/protect.css">
+<script src="js/protect.js"></script>-->
+<script src="js/jquery-1.11.2.js"></script>
+<script src="js/toggles.js"></script>
+<script src="js/protect-file.js"></script>

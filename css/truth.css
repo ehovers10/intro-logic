@@ -1,0 +1,55 @@
+.truth-table {
+  position: relative;  
+  width: 300px;
+}
+
+.truth-head {
+  padding-left: 40px; 
+  border-bottom: 1px solid #000;"
+}
+
+.truth-main {
+  position: relative;
+}
+
+.truth-col {
+  position: absolute; 
+  top: -1em;   
+  padding: 0 2px;
+}
+
+.extra-pad {
+  padding-right: 1em;
+}
+
+.hid {
+  display: none; 
+}
+
+.sen-border {
+  border-right: 1px solid #000;
+}
+
+.even {
+  float: right;
+}
+
+.odd {
+  float: left;
+}
+
+ul {
+  list-style: none;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.buffer {
+  height: 100px; 
+}

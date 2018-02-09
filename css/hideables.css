@@ -1,0 +1,49 @@
+.hid {
+  display: none; 
+}
+
+.open {
+  width: 20px;
+  padding: 3px;
+  background-color: blue;
+  border: 1px solid blue;
+  border-radius: 10px;
+  opacity: 0.7;
+  margin-left: 0;
+  /*vertical-align: middle;*/
+}
+
+.open:hover { opacity: 1; }
+
+
+.step {
+  border: none;
+  border-bottom: 0px solid gray;
+  line-height: 0.75em;
+}
+
+img.open {
+  vertical-align: middle;
+}
+
+.ruleStep {
+  border: none;
+  border-bottom: 0px solid gray;
+}
+
+.box {
+  width: 500px;
+  margin-left: 30px;
+}
+
+.argbox {
+  float: left;
+  width: 300px;
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.blue {
+  background-color: gray;
+}

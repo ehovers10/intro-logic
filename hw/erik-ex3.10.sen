@@ -1,0 +1,1 @@
+7.2.0.20988linux:Linux3.13.0-44-genericSntFC1424011968109D1424012183720S109384Between(a, b, c) | Between(b, a, c)FrontOf(a, b) | FrontOf(c, b)~SameRow(b, c) | LeftOf(b, a)RightOf(b, a) | Tet(a)s=31009;

@@ -1,0 +1,17 @@
+# Site settings
+title: Introduction to logic, s15
+email: ruphil201s15@gmail.com
+description: "Resources on this site are intended as study aids for students enrolled in Erik's sections of Introduction to Logic, spring 2015 at Rutgers University. Material herein is derived by Erik from Language, Proof, and Logic: 2nd ed. by Dave Barker-Plummer, Jon Barwise, and John Etchemendy."
+
+baseurl: "/intro-logic"
+url: "http://erikhoversten.org" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"

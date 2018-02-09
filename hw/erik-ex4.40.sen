@@ -1,0 +1,5 @@
+7.2.0.20988linux:Linux3.13.0-46-genericSntFC1425647353520D1425647757630S1053815~[(Cube(a) & ~Small(a)) | (~Cube(a) & Small(a))]
+( ~Cube(a) | Small(a)) & (Cube(a) | ~Small(a))
+( ~Cube(a) | Small(a)) & (Cube(a) | ~Small(a))~[(Cube(a) | ~Small(a)) & (~Cube(a) | Small(a))]
+( ~Cube(a) & Small(a)) | (Cube(a) & ~Small(a))
+( ~Cube(a) | Cube(a)) & (Small(a) | Cube(a)) & ( ~Cube(a) | ~Small(a)) & (Small(a) | ~Small(a))~(Cube(a) & Larger(a, b)) & Dodec(b)( ~Cube(a) | ~Larger(a, b)) & Dodec(b)( ~Cube(a) | ~Larger(a, b)) & Dodec(b)~(~Cube(a) & Tet(b))Cube(a) | ~Tet(b)Cube(a) | ~Tet(b)~~Cube(a) | Tet(b)Cube(a) | Tet(b)Cube(a) | Tet(b)s=104632;

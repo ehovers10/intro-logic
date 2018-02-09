@@ -1,0 +1,38 @@
+.hid {
+  display: none; 
+}
+
+.open {
+  width: 20px;
+  padding: 3px;
+  background-color: gray;
+  border: 1px solid gray;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+.step {
+  border: none;
+  border-bottom: 0px solid gray;
+}
+
+.ruleStep {
+  border: none;
+  border-bottom: 0px solid gray;
+}
+
+.box {
+  margin-left: 30px;
+}
+
+.argbox {
+  float: left;
+  width: 300px;
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.blue {
+  background-color: blue;
+}

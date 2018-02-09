@@ -1,0 +1,180 @@
+<div style="width: 800px; margin: auto;">
+<div style="float: left; width: 25%; text-align: left; margin-left: 2%;">
+  
+<p><strong>Introduction to Logic</strong></p>
+<strong>Feb. 23, 2015</strong>
+</div>
+<div style="float: left; width: 46%; text-align: center;"><h2>
+Midterm Exam 1
+</h2></div>
+<div style="float: left; width: 25%; text-align: right; margin-right: 2%;">
+  
+<p><strong>Name:</strong><span style="padding: 0 75px; border-bottom: 1px solid #000;"> </span></p>
+100 points possible
+</div>
+<div style="clear: both;"></div>
+
+<hr />
+<!--<div style="height: 1em;"></div>-->
+<h2 id="logical-concepts">Logical concepts</h2>
+<ol style="list-style-type: example">
+<li>What does it mean for an argument to be <em>valid</em>? <strong>(3 points)</strong></li>
+</ol>
+<div style="height: 4em;">
+
+</div>
+<ol start="2" style="list-style-type: example">
+<li>Why does using the <em>method of counterexample</em> show that an argument is invalid? <strong>(3 points)</strong></li>
+</ol>
+<div style="height: 4em;">
+
+</div>
+<ol start="3" style="list-style-type: example">
+<li>Fill in the blanks below with the logical concept that best completes the sentence. Draw your answers from the list of concepts provided. Each concept is used at most once; some will not be used at all. <strong>(2 points each)</strong></li>
+</ol>
+<blockquote>
+<p><strong>Concepts:</strong> <em>proof, counterexample, truth conditions, possibility, logical truth, truth table, reflexive, commutative, transitive, equivalent, inverse, semantics, syntax, idempotence, associative</em></p>
+</blockquote>
+<div style="line-height: 1.75em; margin-left: 5%;">
+<ol style="list-style-type: lower-alpha">
+<li>If an argument is invalid, then it is possible to construct a <span style="padding: 0 150px; border-bottom: 1px  solid #000;"> </span> to it.</li>
+<li>If a sentence is a <span style="padding: 0 150px; border-bottom: 1px solid #000;"> </span>, then it is true in all possible worlds.</li>
+<li><em>BackOf(x,y)</em> and <em>FrontOf(x,y)</em> are an example of predicates that stand in the <span style="padding: 0 150px; border-bottom: 1px solid #000;"> </span> relation.</li>
+<li>A <span style="padding: 0 150px; border-bottom: 1px solid #000;"> </span> is a step by step procedure for showing one sentence to be a logical consequence of other sentences.</li>
+<li>If a sentence is a tautology, then it is true in every row of its <span style="padding: 0 150px; border-bottom: 1px solid #000;"> </span>.</li>
+<li>The Boolean connective <span class="math"> ∧ </span> has the property of being <span style="padding: 0 150px; border-bottom: 1px solid #000;"> </span> because the order of the sentences it connects does not matter to its truth value.</li>
+<li>If sentence A is <span style="padding: 0 150px; border-bottom: 1px solid #000;"> </span> to sentence B, then we can replace A for B in any line of a proof.</li>
+<li>In FOL, the meaning of a sentence is constituted by its <span style="padding: 0 150px; border-bottom: 1px solid #000;"> </span>.</li>
+<li>Since the predicate <em>Larger(x,y)</em> is <span style="padding: 0 150px; border-bottom: 1px solid #000;"> </span>, we can infer <em>Larger(a,c)</em> from <em>Larger(a,b)</em> and <em>Larger(b,c)</em>.</li>
+<li><em>A <span class="math"> ∨ </span> (B <span class="math"> ∨ </span> C)</em> is equivalent to <em>(A <span class="math"> ∨ </span> B) <span class="math"> ∨ </span> C</em> because the Boolean connective <span class="math"> ∨ </span> has the property of being <span style="padding: 0 150px; border-bottom: 1px solid #000;"> </span>.</li>
+</ol>
+</div>
+<div style="page-break-before: always;">
+
+</div>
+<h2 id="translations">Translations</h2>
+<ol start="4" style="list-style-type: example">
+<li>For each of the English sentences below, write an appropriate translation into FOL. <strong>(2 points each)</strong></li>
+</ol>
+<div style="line-height: 1.75em; margin-left: 5%;">
+<ol style="list-style-type: lower-alpha">
+<li>Craig is not hungry, and Dana is starving. <span style="padding: 0 150px; border-bottom: 1px solid #000;"> </span></li>
+<li>Either Fran or Gilbert ate the last cookie. <span style="padding: 0 150px; border-bottom: 1px solid #000;"> </span></li>
+<li>Hugh had a headache and went home. <span style="padding: 0 150px; border-bottom: 1px solid #000;"> </span></li>
+<li>It is not the case that Ichabod loves Julie. <span style="padding: 0 150px; border-bottom: 1px solid #000;"> </span></li>
+<li>Kale is not both tasty and good for you. <span style="padding: 0 150px; border-bottom: 1px solid #000;"> </span></li>
+</ol>
+</div>
+<h2 id="assessing-truth">Assessing truth</h2>
+<ol start="5" style="list-style-type: example">
+<li>Using the world on the left, indicate whether each of the FOL sentences on the right is <em>true</em> or <em>false</em> by placing either a <strong>T</strong> or an <strong>F</strong> to the left of each sentence. <strong>(2 points each)</strong></li>
+</ol>
+<div style="line-height: 1.75em; float: right; margin-right: 5%;">
+<ol style="list-style-type: lower-alpha">
+<li>Large(c)</li>
+<li>Large(f) ∧ Tet(f)</li>
+<li>Medium(c) ∨ FrontOf(a,b)</li>
+<li>RightOf(a,c)</li>
+<li>(SameSize(d,f) ∧ SameSize(b,c)) ∧ SameSize(e,d)</li>
+<li>SameSize(b,c)</li>
+<li>SameRow(a,a)</li>
+<li>Adjoins(a,b) ∨ a = b</li>
+<li>Between(e,d,f)</li>
+<li>LeftOf(d,d)</li>
+</ol>
+</div>
+<img src="../images/me1w1.png" style="float: left; width: 40%; margin-left: 5%;">
+<div style="clear: both;">
+
+</div>
+<ol start="6" style="list-style-type: example">
+<li>Using the checkerboard on the right, construct a world in which <strong>every</strong> sentence on the left is true. You may want to practice on some scratch paper before drawing your official world on the exam. <strong>(2 points each)</strong></li>
+</ol>
+<div style="line-height: 1.75em; float: left; margin-left: 10%;">
+<ol style="list-style-type: lower-alpha">
+<li>Tet(a)</li>
+<li>c = d</li>
+<li>RightOf(a,c)</li>
+<li>Between(a,c,f)</li>
+<li>Cube(d) ∧ Medium(d)</li>
+<li>¬SameRow(a,f)</li>
+<li>Larger(f,d)</li>
+</ol>
+</div>
+<img src="../images/check.png" style="float: right; width: 40%; margin-right: 10%;">
+<div style="clear: both;">
+
+</div>
+<div style="page-break-before: always;">
+
+</div>
+<h2 id="proofs">Proofs</h2>
+<ol start="7" style="list-style-type: example">
+<li>The proofs below have a number of missing pieces. Fill in the blanks with a sentence of FOL or a justification where appropriate. (Remember that justifications must include the rule name and the line numbers for the lines you use in the justification.) <strong>(3 points per blank)</strong></li>
+</ol>
+<blockquote>
+<ol style="list-style-type: lower-alpha">
+<li><strong>Argument 1</strong></li>
+</ol>
+<p><img src="../images/me1p3.png" style="margin-left: 2%; margin-bottom: 1em; width: 90%;"></p>
+</blockquote>
+<blockquote>
+<ol start="2" style="list-style-type: lower-alpha">
+<li><strong>Argument 2</strong></li>
+</ol>
+<p><img src="../images/me1p5.png" style="margin-left: 2%; margin-bottom: 1em; width: 90%;"></p>
+</blockquote>
+<h2 id="counterexample">Counterexample</h2>
+<ol start="8" style="list-style-type: example">
+<li>The argument below is invalid. Using the checkerboard provided, construct a counterexample world that shows the argument to be invalid. <strong>(5 points)</strong></li>
+</ol>
+<img src="../images/me1pcounter.png" style="float: left; margin-left: 10%;"> <img src="../images/check.png" style="float: right; width: 40%; margin-right: 10%;">
+<div style="clear: both;">
+<div style="page-break-before: always;">
+
+</div>
+<h2>Truth tables</h2>
+<ol start="9" style="list-style-type: example">
+<li>Fill out the truth tables below. Make sure that you fill the column under every Boolean connective. <strong>(4 points per table)</strong></li>
+</ol>
+<img src="../images/me1tt1.png" style="float: left; width: 45%; margin-left: 5%;"> <img src="../images/me1tt2.png" style="float: right; width: 40%; margin-right: 5%;">
+<div style="clear: both;">
+
+</div>
+<div style="height: 2em;">
+
+</div>
+<ol start="10" style="list-style-type: example">
+<li>What does the left table above tell us about the relation between sentences of the form <strong>¬A ∨ B</strong> and <strong>¬(¬B ∧ A)</strong>? <strong>(2 points)</strong></li>
+</ol>
+<div style="height: 4em;">
+
+</div>
+<h2>Bonus</h2>
+<ol start="11" style="list-style-type: example">
+<li>For any of the proof lines you marked with <strong>Ana Con</strong> in the <em>Proofs</em> section, explain your intuitive reason for the justification you gave. Be sure to give the argument and line number in your explanation. <strong>(2 points each)</strong></li>
+</ol>
+<div style="height: 4em;">
+
+</div>
+<ol start="12" style="list-style-type: example">
+<li>Explain what it means to say that FOL is a <em>recursive</em> language. <strong>(3 points)</strong></li>
+</ol>
+<div style="height: 3em;">
+
+</div>
+<ol start="13" style="list-style-type: example">
+<li>Translate the following English sentence into FOL. <strong>(2 points)</strong></li>
+</ol>
+<blockquote>
+<p><em>Vera has never not gotten either an A or a B on any exam she has taken.</em></p>
+</blockquote>
+<div style="height: 3em;">
+
+</div>
+</div>
+<link rel="stylesheet" href="css/protect.css">
+<script src="js/jquery-1.11.2.js"></script>
+<script src="js/protect.js"></script>
+
+

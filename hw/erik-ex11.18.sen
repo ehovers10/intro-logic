@@ -1,0 +1,1 @@
+7.2.0.20988linux:Linux3.13.0-37-genericSntFC1430517102515D1430518433309S107775@x ( ~/y (FrontOf(y, x)) $ Large(x))@x (( Cube(x) & /y (FrontOf(y,x))) $ Small(x))@x @y((Cube(x) & Dodec(y) & BackOf(x,y)) $ Smaller(x,y))@x@y(Between(e,x,y) $ (Small(x) & Small(y)))@x @y ((/z (Tet(z) & Between(z, x, y))) $ (Small(x) & Small(y)))s=53697;

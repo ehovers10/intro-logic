@@ -1,0 +1,70 @@
+<table>
+<tbody>
+<tr class="odd">
+<td align="right"></td>
+<td align="left"><span class="scope">Annotated sentence</td>
+<td align="left">Truth-functional form</td>
+<td align="left">a/b/c</td>
+</tr>
+<tr class="odd">
+<td align="right">1.</td>
+<td align="left"><span class="scope">∀x x=x</span><sub>A</sub></td>
+<td align="left">A</td>
+<td align="left">b</td>
+</tr>
+<tr class="even">
+<td align="right">2.</td>
+<td align="left"><span class="scope">∃x Cube(x)</span><sub>A</sub> → <span class="scope">Cube(a)</span><sub>B</sub></td>
+<td align="left">A → B</td>
+<td align="left">c</td>
+</tr>
+<tr class="odd">
+<td align="right">3.</td>
+<td align="left"><span class="scope">Cube(a)</span><sub>A</sub> → <span class="scope">∃x Cube(x)</span><sub>B</sub></td>
+<td align="left">A → B</td>
+<td align="left">b</td>
+</tr>
+<tr class="even">
+<td align="right">4.</td>
+<td align="left"><span class="scope">∀x(Cube(x) ∧ Small(x))</span><sub>A</sub> → <span class="scope">∀x(Small(x) ∧ Cube(x))</span><sub>B</sub></td>
+<td align="left">A → B</td>
+<td align="left">b</td>
+</tr>
+<tr class="odd">
+<td align="right">5.</td>
+<td align="left"><span class="scope">∀v(Cube(v) ↔ Small(v))</span><sub>A</sub> ↔ ¬¬<span class="scope">∀v(Cube(v) ↔ Small(v))</span><sub>A</sub></td>
+<td align="left">A ↔ ¬¬A</td>
+<td align="left">a</td>
+</tr>
+<tr class="even">
+<td align="right">6.</td>
+<td align="left"><span class="scope">∀x Cube(x)</span><sub>A</sub> → ¬<span class="scope">∃¬Cube(x)</span><sub>B</sub></td>
+<td align="left">A → B</td>
+<td align="left">b</td>
+</tr>
+<tr class="odd">
+<td align="right">7.</td>
+<td align="left">[<span class="scope">∀z(Cube(z) → Large(z)) ∧ Cube(b)</span><sub>A</sub>] → <span class="scope">Large(b)</span><sub>B</sub></td>
+<td align="left">A → B</td>
+<td align="left">b</td>
+</tr>
+<tr class="even">
+<td align="right">8.</td>
+<td align="left"><span class="scope">∃x Cube(x)</span><sub>A</sub> → (<span class="scope">∃x Cube(x)</span><sub>A</sub> ∨ <span class="scope">∃y Dodec(y)</span><sub>B</sub>)</td>
+<td align="left">A → (A ∨ B)</td>
+<td align="left">a</td>
+</tr>
+<tr class="odd">
+<td align="right">9.</td>
+<td align="left">(<span class="scope">∃x Cube(x)</span><sub>A</sub> ∨ <span class="scope">∃y Dodec(y)</span><sub>B</sub>) → <span class="scope">∃x Cube(x)</span><sub>A</sub></td>
+<td align="left">(A ∨ B) → A</td>
+<td align="left">c</td>
+</tr>
+<tr class="even">
+<td align="right">10.</td>
+<td align="left">[(<span class="scope">∀u Cube(u)</span><sub>A</sub> → <span class="scope">∀u Small(u)</span><sub>B</sub>) ∧ ¬<span class="scope">∀u Small(u)</span><sub>B</sub>] → ¬<span class="scope">∀u Cube(u)</span><sub>A</sub></td>
+<td align="left">[(A → B) ∧ ¬B] → ¬A</td>
+<td align="left">a</td>
+</tr>
+</tbody>
+</table>

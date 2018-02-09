@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+<!--Externals-->
+<link rel="stylesheet" href="./css/fitch.css"> 
+<link rel="stylesheet" href="./css/hideables.css">
+<script src="./js/jquery-1.11.2.js"></script>
+<script src="./js/toggles.js"></script>
+<script src="./js/protect-file.js"></script>
+</head>
+<body>
+<p><a name="top"></a> <a href="./index.md">Return to course home page</a></p>
+<h1 id="example-proofs-using-the-proof-rules-for-the-boolean-connectives-including-the-conditionals.">Example proofs using the proof rules for the Boolean connectives including the conditionals.</h1>
+<h2 id="exercise-8.23">Exercise 8.23</h2>
+<div class="proof" >
+<div class="step" ><table ><td class="step" >
+<span class="stepnumber"></span><span class="stepFormula" title="">A → B</span>
+</td></table></div>
+<div class="fitchbar" ></div>
+<div class="proof">
+<div class="step" ><table ><td class="step" >
+<span class="stepnumber"></span><span class="stepFormula" title="">A</span>
+</td></table></div>
+<div class="fitchbar" ></div>
+<div class="step" ><table ><td class="step" >
+<span class="stepnumber"></span><span class="stepFormula" title="">B</span>
+</td><td class="ruleStep" >
+<span class="rulename">→ Elim</span><span class="support"> : 1,2</span>
+</td></table></div>
+<div class="step" ><table ><td class="step" >
+<span class="stepnumber"></span><span class="stepFormula" title="">B ∨ C</span>
+</td><td class="ruleStep" >
+<span class="rulename">∨ Intro</span><span class="support"> : 3</span>
+</td></table></div>
+</div>
+<div class="step" ><table ><td class="step" >
+<span class="stepnumber"></span><span class="stepFormula" title="">A &amp;rarr (B ∨ C)</span>
+</td><td class="ruleStep" >
+<span class="rulename">→ Intro</span><span class="support"> : 2-4</span>
+</td></table></div>
+</div>
+
+<p><a href="#top">Return to top</a></p>
+<hr />
+<h2 id="exercise-8.26">Exercise 8.26</h2>
+<div class="proof" >
+<div class="fitchbar" ></div>
+<div class="proof">
+<div class="step" ><table ><td class="step" >
+<span class="stepnumber"></span><span class="stepFormula" title="">P</span>
+</td></table></div>
+<div class="fitchbar" ></div>
+<div class="proof">
+<div class="step" ><table ><td class="step" >
+<span class="stepnumber"></span><span class="stepFormula" title="">Q</span>
+</td></table></div>
+<div class="fitchbar" ></div>
+<div class="step" ><table ><td class="step" >
+<span class="stepnumber"></span><span class="stepFormula" title="">P ∨ ¬P</span>
+</td><td class="ruleStep" >
+<span class="rulename">Taut Con</span><span class="support"></span>
+</td></table></div>
+<div class="proof">
+<div class="step" ><table ><td class="step" >
+<span class="stepnumber"></span><span class="stepFormula" title="">P</span>
+</td></table></div>
+<div class="fitchbar" ></div>
+<div class="step" ><table ><td class="step" >
+<span class="stepnumber"></span><span class="stepFormula" title="">P</span>
+</td><td class="ruleStep" >
+<span class="rulename">Reit</span><span class="support"> : 4</span>
+</td></table></div>
+</div>
+<div class="proof">
+<div class="step" ><table ><td class="step" >
+<span class="stepnumber"></span><span class="stepFormula" title="">¬P</span>
+</td></table></div>
+<div class="fitchbar" ></div>
+<div class="step" ><table ><td class="step" >
+<span class="stepnumber"></span><span class="stepFormula" title="">⊥</span>
+</td><td class="ruleStep" >
+<span class="rulename">⊥ Intro</span><span class="support"> : 1,6</span>
+</td></table></div>
+<div class="step" ><table ><td class="step" >
+<span class="stepnumber"></span><span class="stepFormula" title="">P</span>
+</td><td class="ruleStep" >
+<span class="rulename">⊥ Elim</span><span class="support"> : 7</span>
+</td></table></div>
+</div>
+<div class="step" ><table ><td class="step" >
+<span class="stepnumber"></span><span class="stepFormula" title="">P</span>
+</td><td class="ruleStep" >
+<span class="rulename">∨ Elim</span><span class="support"> : 3,4-5,6-8</span>
+</td></table></div>
+</div>
+<div class="step" ><table ><td class="step" >
+<span class="stepnumber"></span><span class="stepFormula" title="">Q → P</span>
+</td><td class="ruleStep" >
+<span class="rulename">→ Intro</span><span class="support"> : 2-9</span>
+</td></table></div>
+</div>
+<div class="step" ><table ><td class="step" >
+<span class="stepnumber"></span><span class="stepFormula" title="">P → (Q → P)</span>
+</td><td class="ruleStep" >
+<span class="rulename">→ Intro</span><span class="support"> : 1-10</span>
+</td></table></div>
+</div>
+
+<p><a href="#top">Return to top</a></p>
+<hr />
+
+</body>
+</html>

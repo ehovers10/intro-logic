@@ -1,0 +1,1 @@
+7.2.0.20988linux:Linux3.13.0-37-genericSntFC1428935182667D1428935542550S1066810Small(a) & Cube(a) & FrontOf (a,e) & Tet(e)/x (~SameCol(x, b))(Cube(a) & Cube(b)) | Cube(c)Cube(a) % (Cube(b) % Cube(e))/x (~Cube (x))/x (Cube(x) & Small(x))/x (Cube(x) & Small(x))/y (~Dodec(y) & Large(y))@y (Cube(y) $ ~Medium(y))@x ((Tet(x) & Small(x)) $ FrontOf(x, e))s=59702;
